@@ -18,7 +18,7 @@ const TopRated = () => {
         
     <ContentWrapper>
       <div className="flex w-full justify-between">
-      <span className="m-0 text-2xl text-white font-normal">Trending</span>
+      <span className="m-0 text-2xl text-white font-normal">Top Rated</span>
       <SwitchTab data={["Movies","Tv Shows"]} onTabChange={onTabChange}/>
       </div>
     </ContentWrapper>
