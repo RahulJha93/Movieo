@@ -5,7 +5,7 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 // import { useNavigate } from "react-router-dom";
-import Image from "../../../components/lazyLoadImage/Image";
+import Image from "../../../components/lazyLoadImage/Image+";
 import Spinner from "../../../components/spinner/Spinner.jsx";
 
 // Import Swiper styles
@@ -17,7 +17,7 @@ import Contentwrapper from "../../../components/contentWrapper/ContentWrapper";
 
 import { useNavigate } from "react-router-dom";
 import "./herobanner.scss";
-import "./herobanner.css";
+import "./heroBanner.css";
 import useFetch from "../../../hooks/useFetch";
 import { useSelector } from "react-redux";
 
