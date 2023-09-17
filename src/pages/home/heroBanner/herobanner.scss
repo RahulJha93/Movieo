@@ -1,0 +1,35 @@
+@import "../../../mixins.scss";
+
+.heroBanner {
+  width: 100%;
+  height: 450px;
+  background-color: var(--black);
+  display: flex;
+  align-items: center;
+  position: relative;
+  
+  @include md{
+    height: 700px;
+  }
+  .backdrop-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    opacity: 0.5;
+
+    .lazy-load-image-background {
+      width: 100%;
+      height: 100%;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+}
