@@ -32,7 +32,7 @@ const Cast = ({ data, loading }) => {
                             return (
                                 <div key={item.id} className="listItem">
                                     <div className="profileImg">
-                                        <Img src={imgUrl} />
+                                        <Image src={imgUrl} />
                                     </div>
                                     <div className="name">{item.name}</div>
                                     <div className="character">
