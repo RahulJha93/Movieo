@@ -14,6 +14,8 @@ import PosterFallback from "../../../assets/no-poster.png";
 import PlayButton from "../PlayButton";
 import VideoPopUp from "../../../components/videoPopUp/VideoPopUp";
 
+// comment for change
+
 const DetailsBanner = ({video,crew}) => {
   useEffect(()=>{
     document.title = `Movieo - Cast`;
