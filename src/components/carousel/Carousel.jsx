@@ -8,7 +8,7 @@ import { useSelector } from "react-redux";
 import dayjs from "dayjs";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
-import Img from "../lazyLoadImage/Img";
+import Image from "../lazyLoadImage/Image";
 import PosterFallback from "../../assets/no-poster.png";
 import CircleRating from "../circleRating/CircleRating";
 import Genres from "../genres/Genres";
@@ -77,7 +77,7 @@ const Carousel = ({ data, loading, endpoint, title }) => {
                                     }
                                 >
                                     <div className="posterBlock">
-                                        <Img src={posterUrl} />
+                                        <Image src={posterUrl} />
                                         <CircleRating
                                             rating={item.vote_average.toFixed(
                                                 1

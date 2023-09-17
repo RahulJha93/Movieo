@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 import "./MovieCard.scss";
-import Img from "../lazyLoadImage/Img";
+import Image from "../lazyLoadImage/Image";
 import CircleRating from "../circleRating/CircleRating";
 import Genres from "../genres/Genres";
 import PosterFallback from "../../assets/no-poster.png";
@@ -23,7 +23,7 @@ const MovieCard = ({ data, fromSearch, mediaType }) => {
             }
         >
             <div className="posterBlock">
-                <Img className="posterImg" src={posterUrl} />
+                <Image className="posterImg" src={posterUrl} />
                 {!fromSearch && (
                     <React.Fragment>
                         <CircleRating rating={data?.vote_average.toFixed(1)} />

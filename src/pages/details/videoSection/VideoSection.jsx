@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import "./VideoSection.scss";
 
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
-import VideoPopup from "../../../components/videoPopup/VideoPopup";
-import Img from "../../../components/lazyLoadImage/Img";
+import VideoPopup from "../../../components/videoPopUp/VideoPopUp";
+import Image from "../../../components/lazyLoadImage/Image";
 import PlayButton from "../PlayButton";
 
 const VideoSection = ({ data, loading }) => {
@@ -38,7 +38,7 @@ const VideoSection = ({ data, loading }) => {
                                 }}
                             >
                                 <div className="videoThumbnail">
-                                    <Img
+                                    <Image
                                         src={`https://img.youtube.com/vi/${video.key}/mqdefault.jpg`}
                                     />
                                     <PlayButton/>
