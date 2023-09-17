@@ -5,7 +5,7 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 // import { useNavigate } from "react-router-dom";
-import Image from "../../../components/lazyLoadImage/Image+";
+import Image from "../../../components/lazyLoadImage/Image";
 import Spinner from "../../../components/spinner/Spinner.jsx";
 
 // Import Swiper styles
